@@ -1,12 +1,9 @@
-import math
-import random
-import sys
 from OpenGL.GL import *
 from OpenGL.GLU import *
 import pygame
 from pygame.locals import *
 
-from objects import Block, Cube, Light, Sphere 
+from objects import   Cube, Light, Sphere 
 
 
 class App(object):
