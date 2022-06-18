@@ -12,6 +12,7 @@ class Cube(object):
         self.color = color
         x, y, z = map(lambda i: i/2, size)
         
+        # we need 24 face for the texture to be exact
         self.vertices = [
                     [
                         [-x, -y,  z,  0.0, 0.0],
@@ -61,10 +62,10 @@ class Cube(object):
 
 
     def render(self,texture ):
+        
         glPushMatrix()
         glEnable(GL_TEXTURE_2D)
         glTranslatef(*self.position)
-        # glRotate(-3,1,0,0)
         glMaterialfv(GL_FRONT, GL_DIFFUSE,self.color)
         for row in self.vertices:
             glBindTexture(GL_TEXTURE_2D,texture)

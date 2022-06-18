@@ -6,6 +6,7 @@ from OpenGL.GL.shaders import *
 
 class Texture:
         def __init__(self):
+                
                 self.groundTexture =  self._loadTexture("images/ff.jpg") 
                 self.blockTexture  =   self._loadTexture("images/tex.png") 
                 self.grassTexture  =    self._loadTexture("images/grass.jpg")

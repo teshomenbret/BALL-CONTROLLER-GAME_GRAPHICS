@@ -9,6 +9,7 @@ class Builfing(Cube):
        
     
     def update(self, dt):
+        
         x, y, z = self.position
         z += self.speed*dt
         self.position = x, y, z
