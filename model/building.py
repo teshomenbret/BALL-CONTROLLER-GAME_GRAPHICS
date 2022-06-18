@@ -1,4 +1,4 @@
-from cube import Cube
+from model.cube import Cube
 
 
 class Builfing(Cube):

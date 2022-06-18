@@ -1,4 +1,4 @@
-from sphere import Sphere
+from model.sphere import Sphere
 
 
 class Player(Sphere):

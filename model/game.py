@@ -1,10 +1,10 @@
 import random
-from block import Block
-from building import Builfing
-from cube import Cube
-from grass import Grass
-from player import Player
-from texture import Texture
+from model.block import Block
+from model.building import Builfing
+from model.cube import Cube
+from model.grass import Grass
+from model.player import Player
+from model.texture import Texture
 
 
 
